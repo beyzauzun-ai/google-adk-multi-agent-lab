@@ -43,6 +43,14 @@ The project uses multiple agents working together:
 - Google Search Grounding
 - Cloud Shell
 
+## ✨ Features
+
+- Multi-agent verification workflow
+- Google Search grounding
+- Fact-checking and claim analysis
+- Event trace visualization
+- Agent collaboration with ADK
+  
 ## 📸 Demo Screenshots
 
 ### 🔍 Multi-Agent Fact Checking
