@@ -16,30 +16,58 @@ The lab includes:
 - Structured outputs with Pydantic
 - ADK Dev UI interaction
 
-## 🧠 Technologies Used
+## 🧩 Multi-Agent Architecture
+
+The project uses multiple agents working together:
+
+1. *Google Search Agent*
+   - Retrieves external information from the web
+
+2. *Critic Agent*
+   - Evaluates factual accuracy of responses
+
+3. *Reviser Agent*
+   - Corrects inaccurate or misleading outputs
+
+4. *Verification Workflow*
+   - Displays event traces and reasoning process
+
+## 🛠️ Technologies Used
 
 - Google Cloud
 - Vertex AI
-- Gemini 1.5 Flash
+- Gemini 3 Flash Preview
 - Google ADK
 - Python
-- Pydantic
+- Multi-Agent Systems
+- Google Search Grounding
+- Cloud Shell
 
-## 📂 Project Structure
+## 📸 Demo Screenshots
 
-```bash
-app_agent/
-llm_auditor/
-my_google_search_agent/
-adk_utils/
-```
-### 🔍 Multi-Agent Workflow
+### 🔍 Multi-Agent Fact Checking
 
-The project includes a multi-agent architecture:
+![Multi-Agent Fact Checking](Multi-Agent%20Fact%20Checking.png)
 
-critic_agent → checks factual correctness
-reviser_agent → rewrites incorrect answers
-Google Search → provides grounding and verification
+---
+
+### 🧠 Agent Verification Workflow
+
+![Agent Verification Workflow](Agent%20Verification%20Workflow.png)
+
+---
+
+### 🌐 Google Search Agent
+
+![Google Search Agent](Google%20Search%20Agent.png)
+
+---
+
+### 💻 Terminal Execution
+
+![Terminal Execution](Terminal%20Execution.png)
+
+---
 💡 Example Scenario
 
 Input:
@@ -52,6 +80,23 @@ Earth is further away from the Sun than Mars.
 Detect factual inaccuracies
 Verify information with Google Search
 Generate a corrected response
+## 📂 Project Structure
+
+```bash
+app_agent/
+llm_auditor/
+my_google_search_agent/
+adk_utils/
+```
+
+### 🔍 Multi-Agent Workflow
+
+The project includes a multi-agent architecture:
+
+critic_agent → checks factual correctness
+reviser_agent → rewrites incorrect answers
+Google Search → provides grounding and verification
+
 
 ### 🖥️ ADK Dev UI Preview
 
