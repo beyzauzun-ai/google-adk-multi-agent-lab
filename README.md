@@ -1,0 +1,70 @@
+# Google ADK Multi-Agent Lab
+
+Hands-on Google Cloud ADK project featuring multi-agent workflows, Gemini-powered agents, fact-checking, and Google Search grounding.
+
+## 🚀 Project Overview
+
+This project demonstrates how to build and test AI agents using Google's Agent Development Kit (ADK).
+
+The lab includes:
+
+- Single-agent applications
+- Multi-agent workflows
+- Fact-checking agents
+- Revising agents
+- Google Search grounding
+- Structured outputs with Pydantic
+- ADK Dev UI interaction
+
+## 🧠 Technologies Used
+
+- Google Cloud
+- Vertex AI
+- Gemini 1.5 Flash
+- Google ADK
+- Python
+- Pydantic
+
+## 📂 Project Structure
+
+```bash
+app_agent/
+llm_auditor/
+my_google_search_agent/
+adk_utils/
+```
+### 🔍 Multi-Agent Workflow
+
+The project includes a multi-agent architecture:
+
+critic_agent → checks factual correctness
+reviser_agent → rewrites incorrect answers
+Google Search → provides grounding and verification
+💡 Example Scenario
+
+Input:
+```bash
+Earth is further away from the Sun than Mars.
+```
+
+### Agents automatically:
+
+Detect factual inaccuracies
+Verify information with Google Search
+Generate a corrected response
+
+### 🖥️ ADK Dev UI Preview
+
+This project was tested using the Google ADK Dev UI on Google Cloud Shell.
+
+### 📚 Learning Outcomes
+
+Building AI agents with ADK
+Creating multi-agent systems
+Implementing fact-checking workflows
+Using structured schemas with Pydantic
+Grounding LLM responses with Google Search
+
+### 👩‍💻 Author
+
+Beyza UZUN
